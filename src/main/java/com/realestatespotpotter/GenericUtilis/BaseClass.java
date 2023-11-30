@@ -63,6 +63,7 @@ public class BaseClass {
 		{
 			System.out.println("---Invalid browser");
 		}
+		Thread.sleep(15000);
 		sdriver = driver;
 	}
 	@BeforeMethod(alwaysRun=true)
